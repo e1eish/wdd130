@@ -22,6 +22,7 @@ main section {
 
 #background {
     height: 725px;
+    background-color: #507792;
 }
 
 body {
@@ -48,10 +49,6 @@ nav a:hover {
     color: #0c4168;
 }
 
-#background {
-    background-color: #507792;
-}
-
 .msg {
     background-color: #0c4168;
 }
@@ -75,6 +72,10 @@ footer h3 {
 footer a {
     color: white;
     text-decoration: none;
+}
+
+footer a:hover {
+    color: #fae072;
 }
 
 footer h3 a:hover {
