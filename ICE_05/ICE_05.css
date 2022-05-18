@@ -1,0 +1,30 @@
+body {
+    background-color: #707070;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+header img {
+    width: 100%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin: 0 75px;
+}
+
+.round {
+    width: 100%;
+    border: 15px solid #505050;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
