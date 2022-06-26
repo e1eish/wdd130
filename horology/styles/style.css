@@ -135,7 +135,7 @@ h1 {
 .clocks {
     display: grid;
     grid-template-columns: 1fr 1px 1fr;
-    height: 1000px;
+    height: 800px;
     background-color: #473c38;
     text-align: center;
     justify-content: center;
@@ -166,7 +166,7 @@ img {
 .czech-clock {
     grid-column: 3/4;
     grid-row: 1/2;
-    align-self: flex-end;
+    /* align-self: flex-end; */
 }
 .czech-clock-msg {
     grid-column: 3/4;

@@ -196,7 +196,7 @@ hr {
 .watches {
     display: grid;
     grid-template-columns: 1fr 1px 1fr;
-    height: 575px;
+    height: 400px;
     background-color: #473c38;
     text-align: center;
     justify-content: center;
