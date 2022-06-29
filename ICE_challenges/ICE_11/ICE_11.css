@@ -49,7 +49,7 @@ header {
 .content-img {
     width: 100%;
 }
-.like-count, .vert, .bookmark-icons, .like-icon {
+.like-count, .menu, .bookmark-icons, .like-icon {
     margin: 0 10px;
 }
 .comment-count {
