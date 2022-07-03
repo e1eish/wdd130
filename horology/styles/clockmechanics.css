@@ -171,13 +171,56 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-.open-watch {
-    display: block;
-    height: 400px;
-    margin: 40px auto;
+
+
+.center-content-1 {
+    display: grid;
+    grid-template-columns: 1fr 2px 1fr; 
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 40px;
 }
-.rule-1 {
+
+.pendulum-1 {
+    width: 80%;
+}
+.pendulum-1 h4 {
+    font-size: 2em;
+}
+.pendulum-vl {
+    height: 80%;
+}
+.open-watch {
+    display: flex;
+    width: 450px;
+    justify-items: left;
+}
+figcaption {
+    text-align: center;
+    font-size: 0.6em;
+    line-height: 1.5em;
+    width: 40%;
+    margin-top: 50%;
+}
+.pendulum-escapement {
+    width: 60%;
+}
+/* .rule-1 {
     margin-top: 100px;
+} */
+
+.center-content-2 {
+    display: grid;
+    grid-template-columns: 1fr 2px 1fr; 
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 140px;
 }
 .horology-history {
     text-align: center;
@@ -250,4 +293,8 @@ footer a:hover {
 }
 footer h3 a:hover {
     text-decoration: underline;
+}
+
+.highlight {
+    color: #b2935b;
 }

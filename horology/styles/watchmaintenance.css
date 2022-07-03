@@ -299,7 +299,9 @@ hr {
 
 .footer-intro {
     text-align: center;
+    margin: 0 auto;
     margin-top: 100px;
+    width: 80%;
 }
 footer {
     display: grid;
