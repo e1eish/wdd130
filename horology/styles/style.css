@@ -102,7 +102,7 @@ header {
 #hero-img {
     width: 100%;
 }
-.home-title {
+h1 {
     color: #dee7ec;
     font-family: 'Cormorant Garamond', serif;
     font-size: 3em;
@@ -113,23 +113,28 @@ h4 {
     color: #fff6ea;
     font-family: 'Lancelot';
 }
-h1 {
+h2 {
     font-family: 'Cormorant Garamond', serif;
+    font-size: 2em;
 }
 
 .definition {
     width: 60%;
-    display: flex;
     margin: 50px auto;
 }
-.definition h1 {
+.definition h2 {
     color: #fff6ea;
 }
 .def-title {
-    font-size: 2em;
+    font-size: 4em;
 }
 .def-else {
-    font-size: 0.8em;
+    font-size: 1.6em;
+    font-family: 'Cormorant Garamond', serif;
+}
+ul.def-else {
+    font-size: 1.2em;
+    margin-bottom: 100px;
 }
 
 .clocks {
@@ -147,7 +152,7 @@ img {
     border-radius: 5px;
 }
 .clocks img {
-    width: 400;
+    width: 400px;
 }
 .vl {
     border-left: 1px solid #fff6ea;
@@ -184,13 +189,13 @@ p.horology-explain, p.horology-history {
     margin-right: 15px; */
     margin: 0 80px;
 }
-h1.horology-explain {
+h2.horology-explain {
     margin-top: 100px;
 }
 p.horology-explain {
     margin-bottom: 25px;;
 }
-h1.horology-history {
+h2.horology-history {
     margin-top: 25px;
 }
 p.horology-history {
