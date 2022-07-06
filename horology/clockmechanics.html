@@ -39,16 +39,16 @@
             </section>
         </div>
         <hr>
-        <div class="definition">
+        <div class="description">
             <h1>So clocks keep time. That's great, but how do they do that? Below you can read on how a pendulum clock functions. The elements and ideas used in the workings of a pendulum also carry over to other clock machanisms like watches.</h1>
         </div>
-        <div class="clocks">
+        <div class="source">
             <img class="pendulum-clock" src="images/pendulum-clock.jpg" alt="Pendulum Clock">
             <div class="vl"></div>
             <div class="pendulum-clock-msg">
                 <h4>The Source</h4>
                 <hr class="pendulum-rule">
-                <p>For a mechanical cock it all starts with a source of power. In the case of a pendulum clock, it is a weight that is pulled or wound up by a person. This then gives it gravitational potential energy which will power the clock as it is converted into kinetic energy.
+                <p>For a mechanical cock it all starts with a <span class="highlight">source of power</span>. In the case of a pendulum clock, it is a weight that is pulled or wound up by a person. This then gives it gravitational potential energy which will power the clock as it is converted into kinetic energy.
                 <!-- <br><br>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eveniet est culpa, quasi eos accusantium laboriosam perspiciatis doloremque ipsam esse adipisci! Nemo quidem ex quam sequi fuga ducimus adipisci harum! -->
                 </p>
@@ -56,15 +56,15 @@
         </div>
         <div class="center-content-1">
             <!-- <hr class="rule-1"> -->
-            <div class="pendulum-1">
+            <div class="escapement">
                 <h4>The Escapement</h4>
                 <hr class="pendulum-rule">
                 <p>Now that we have our power source, we need a way of controlling that power and releasing it in controlled intervals. That is where an escapement comes in. The escapement is the part of a clock that controls the release of power and is the component that makes that recognizable “tick-tock” sound. For a pendulum clock it is the pendulum as well as a special gear and fork. As the pendulum swings back and forth it moves a fork, called the <span class="highlight">anchor</span> <em>(see <span class="highlight">figure 1 'h')</span></em>, that allows the special gear, which is connected to the power and is called the <span class="highlight">escape wheel</span>, to turn. It does this by letting one of the long teeth pass and block the next until the pendulum has swung again.</p>
             </div>
             <div class="vl pendulum-vl"></div>
-            <figure class="open-watch">
-                <img class="pendulum-escapement" src="images/Pendulum-with-Escapement.png" alt="Pendulum Escapement Diagram">
-                <figcaption>
+            <figure class="diagram">
+                <img id="myImg" class="pendulum-escapement" src="images/Pendulum-with-Escapement.png" alt="Pendulum Escapement Diagram">
+                <figcaption id="caption-content">
                     <em>figure 1</em>
                     <hr>
                     <br>
@@ -85,20 +85,36 @@
                     <em>(h)</em> anchor
                 </figcaption>
             </figure>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+
+                <div class="modal-figure">
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img01">
+  
+                    <!-- Modal Caption (Image Text) -->
+                    <div id="caption"></div>
+                </div>
+            </div>
+
         </div>
         <hr>
         <!-- <h1 class="horology-history">Further Explaination</h1> -->
         <div class="center-content-2">
             <img src="images/Anchor_escapement_animation.gif" alt="Animation of an Escapement">
             <div class="vl pendulum-vl"></div>
-            <p class="horology-history">But how does the pendulum keep going? Shouldn't it eventually slow and come to a stop? For this there is a simple yet ingenious solution. Every time the anchor lets a tooth past because the anchor's points and the escape wheel's teeth are shaped in a certain way the teeth give the fork a little push keeping the pendulum swinging. Now that we have a way of keeping the time it is a simple matter of using gear ratios to get the hour, minute, and second hands moving correctly.</p>
+            <p>But how does the pendulum keep going? Shouldn't it eventually slow and come to a stop? For this there is a simple yet ingenious solution. Every time the anchor lets a tooth past because the anchor's points and the escape wheel's teeth are shaped in a certain way the teeth give the fork a little push keeping the pendulum swinging. Now that we have a way of keeping the time it is a simple matter of using gear ratios to get the hour, minute, and second hands moving correctly.</p>
         </div>
         
         <div class="watches">
             <div class="opened-watch-msg">
                 <h4>What About a Watch?</h4>
                 <hr class="pendulum-rule">
-                <p>Instead of using gravity a watch uses springs. For the main power source a mainspring is wound with the crown on the side of the watch. As for the escapment it uses a wheel connected to a spring that pushes the anchor by winding and unwinding with the wheel's momentum.
+                <p>Instead of using gravity a watch uses <span class="highlight">springs</span>. For the main power source a mainspring is wound with the crown on the side of the watch. As for the escapment it uses a wheel connected to a spring that pushes the anchor by winding and unwinding with the wheel's momentum.
                 <!-- <br><br>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eveniet est culpa, quasi eos accusantium laboriosam perspiciatis doloremque ipsam esse adipisci! Nemo quidem ex quam sequi fuga ducimus adipisci harum! -->
                 </p>
@@ -117,5 +133,28 @@
             <h3><a href="watchmaintenance.html">Watches</a></h3>
         </div>
     </footer>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("myImg");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = document.getElementById("caption-content").innerHTML;
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+        modal.style.display = "none";
+        }
+    </script>
 </body>
 </html>
