@@ -138,13 +138,16 @@ h1 {
 .first-steps {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 650px;
+    height: 775px;
     background-color: #473c38;
-    text-align: center;
+    /* text-align: center; */
     justify-content: center;
     align-content: center;
     justify-items: center;
     align-items: center;
+}
+h4 {
+    text-align: center;
 }
 img {
     border-radius: 5px;
@@ -163,7 +166,7 @@ img {
 .first-steps h4 {
     font-size: 1.5em;
 }
-.pendulum-rule {
+.small-rule {
     width: 20%;
 }
 .first-step-msg p, .skeleton-msg p {
@@ -176,9 +179,9 @@ img {
 .end-steps {
     display: grid;
     grid-template-columns: 1fr 1px 1fr;
-    height: 800px;
+    height: 850px;
     background-color: #473c38;
-    text-align: center;
+    /* text-align: center; */
     justify-content: center;
     align-content: center;
     justify-items: center;
@@ -220,6 +223,9 @@ img {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+.end-rule {
+    width: 50%;
 }
 
 
@@ -285,13 +291,18 @@ hr {
 .watches h4 {
     font-size: 1.5em;
 }
-.pendulum-rule {
-    width: 20%;
-}
 .opened-watch-msg p {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.video {
+    text-align: center;
+    margin-top: 50px;
+}
+iframe {
+    border-radius: 5px;
 }
 
 

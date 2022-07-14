@@ -143,11 +143,14 @@ h2 {
     grid-template-columns: 1fr 1px 1fr;
     height: 1000px;
     background-color: #473c38;
-    text-align: center;
+    /* text-align: center; */
     justify-content: center;
     align-content: center;
     justify-items: center;
     align-items: center;
+}
+h4 {
+    text-align: center;
 }
 img {
     border-radius: 5px;
@@ -182,7 +185,8 @@ img {
     justify-items: center;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
+    margin: 0 50px;
     margin-top: 140px;
     margin-bottom: 40px;
 }
@@ -222,12 +226,12 @@ figcaption {
     justify-items: center;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
     margin-top: 40px;
     margin-bottom: 140px;
 }
 .center-content-2 p {
-    text-align: center;
+    /* text-align: center; */
     margin-top: 50px;
     margin-bottom: 100px;
     margin-left: auto;
@@ -243,7 +247,7 @@ hr {
     grid-template-columns: 1fr 1px 1fr;
     height: 400px;
     background-color: #473c38;
-    text-align: center;
+    /* text-align: center; */
     justify-content: center;
     align-content: center;
     justify-items: center;

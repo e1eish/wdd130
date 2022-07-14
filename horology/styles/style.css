@@ -181,13 +181,13 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-.horology-explain, .horology-history {
+h2.horology-explain, h2.horology-history {
     text-align: center;
 }
 p.horology-explain, p.horology-history {
     /* margin-left: 15px;
     margin-right: 15px; */
-    margin: 0 80px;
+    margin: 0 100px;
 }
 h2.horology-explain {
     margin-top: 100px;
