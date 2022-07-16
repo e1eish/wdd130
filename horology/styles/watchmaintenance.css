@@ -108,7 +108,7 @@ hr {
 #hero-img {
     width: 100%;
 }
-.home-title {
+h1 {
     color: #fff6ea;
     font-family: 'Cormorant Garamond', serif;
     font-size: 3em;
@@ -122,8 +122,9 @@ h4 {
     color: #fff6ea;
     font-family: 'Lancelot';
 }
-h1 {
+h2 {
     font-family: 'Cormorant Garamond', serif;
+    font-size: 2em;
 }
 
 .description {
@@ -234,10 +235,6 @@ img {
 }
 
 
-.center-title {
-    width: 60%;
-    margin: 50px auto;
-}
 /* .open-watch {
     display: block;
     height: 400px;
@@ -250,7 +247,9 @@ img {
 
 .center-title {
     text-align: center;
+    margin: 50px auto;
     margin-top: 150px;
+    width: 60%;
 }
 .img-quad {
     display: grid;
@@ -304,6 +303,7 @@ hr {
 }
 iframe {
     border-radius: 5px;
+    border: 0;
 }
 
 
